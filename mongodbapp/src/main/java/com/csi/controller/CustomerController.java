@@ -53,4 +53,9 @@ public class CustomerController {
         customerService.deleteDataById(custId);
         return ResponseEntity.ok("Id deleted Successfully");
     }
+
+    @GetMapping("say")
+    public ResponseEntity<String>send(){
+        return ResponseEntity.ok("dwgdyuwyudwy");
+    }
 }
