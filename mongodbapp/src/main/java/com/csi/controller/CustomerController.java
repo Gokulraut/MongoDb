@@ -58,4 +58,9 @@ public class CustomerController {
     public ResponseEntity<String>send(){
         return ResponseEntity.ok("dwgdyuwyudwy");
     }
+
+    @GetMapping("/raj")
+    public ResponseEntity<String>sayRam() {
+        return ResponseEntity.ok("Today 26/05/23023 i edit this");
+    }
 }
